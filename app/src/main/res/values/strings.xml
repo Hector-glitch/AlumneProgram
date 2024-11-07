@@ -1,9 +1,3 @@
 <resources>
     <string name="app_name">AlumneProgram</string>
-    <string-array name="cursos">
-        <item>1r SMX</item>
-        <item>2n SMX</item>
-        <item>1r DAM</item>
-        <item>2n DAM</item>
-    </string-array>
 </resources>

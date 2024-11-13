@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">AlumneProgram</string>
+    <string name="nombre">Nombre</string>
+    <string name="edad">Edad</string>
+    <string name="seleccionar">Seleccionar</string>
+    <string name="tornar">Tornar</string>
 </resources>

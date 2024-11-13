@@ -15,7 +15,7 @@
             android:id="@+id/buttonBack"
             android:layout_width="145dp"
             android:layout_height="wrap_content"
-            android:text="Volver" />
+            android:text="@string/tornar" />
     </LinearLayout>
 
 </layout>

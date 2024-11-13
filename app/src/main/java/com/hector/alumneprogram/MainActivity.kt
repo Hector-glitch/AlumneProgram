@@ -20,7 +20,7 @@ class MainActivity : AppCompatActivity() {
         binding = DataBindingUtil.setContentView(this, R.layout.activity_main)
 
         // Configura el Spinner
-        val cursos = arrayOf("1º", "2º", "3º", "4º") // Agrega más cursos según necesites
+        val cursos = arrayOf("1rSMX", "2nSMX", "1rDAM", "2nDAM") // Agrega más cursos según necesites
         val adapter = ArrayAdapter(this, android.R.layout.simple_spinner_item, cursos)
         adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item)
         binding.spinnerCursos.adapter = adapter

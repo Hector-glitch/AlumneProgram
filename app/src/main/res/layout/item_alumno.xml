@@ -5,19 +5,22 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        android:textAlignment="center">
+        android:textAlignment="center"
+        android:background="@drawable/linear_layout_border">
 
         <TextView
             android:id="@+id/nombreTextView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:text="@string/nombre"
             android:textAlignment="center"
-            android:text="@string/nombre" />
+            android:textSize="16sp" />
 
         <TextView
             android:id="@+id/edadTextView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/edad" />
+            android:text="@string/edad"
+            android:textSize="16sp" />
     </LinearLayout>
 </layout>

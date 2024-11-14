@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<layout xmlns:tools="http://schemas.android.com/tools"
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
@@ -10,9 +9,8 @@
             android:id="@+id/spinnerCursos"
             android:layout_width="151dp"
             android:layout_height="59dp"
-            android:layout_marginTop="180dp"
+            android:layout_marginTop="220dp"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.498"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
@@ -20,10 +18,9 @@
             android:id="@+id/buttonSelect"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="40dp"
+            android:layout_marginTop="32dp"
             android:text="@string/seleccionar"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.498"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@id/spinnerCursos" />
     </androidx.constraintlayout.widget.ConstraintLayout>
